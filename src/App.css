@@ -1,0 +1,71 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container */
+div {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.2);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #0044cc;
+}
+
+h3 {
+  color: #0055ff;
+  border-bottom: 2px solid #0055ff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  color: #0033aa;
+}
+
+/* Select Dropdown */
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 2px solid #0055ff;
+  border-radius: 5px;
+  background-color: white;
+  color: #0033aa;
+  cursor: pointer;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Button */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
